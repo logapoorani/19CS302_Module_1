@@ -1,4 +1,4 @@
-# EX 2 C program to check whether the attendance is PRESENT using simple if statement.
+# EX 5 C program to check whether the attendance is PRESENT using simple if statement.
 ## DATE:
 ## AIM:
 To write a program to check whether the attendance is PRESENT using simple if statement.
