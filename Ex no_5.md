@@ -1,36 +1,45 @@
-# EX 5 C program to calculate the total marks, average, and percentage of marks obtained in seven subjects.
-## DATE
+# EX 2 C program to check whether the attendance is PRESENT using simple if statement.
+## DATE:
 ## AIM:
-To write a C program to calculate the total marks, average, and percentage of marks obtained in seven subjects.
+To write a program to check whether the attendance is PRESENT using simple if statement.
 
 ## Algorithm
-1. Start. 
-2. Declare three variable value of type int for marks. 
-3. Prompt the user to enter a value. 
-4. Read the value using scanf. 
-5. Find total and average. 
-6. Print the result 
-7. End.
+1.Start.
+
+2.Declare a variable value of type char. 
+
+3.Prompt the user to enter a value. 
+
+4.Read the value using scanf. 
+
+5.Check whether the attendance is PRESENT. 
+
+6.If true, print "Present". 
+
+7.If false, print " ". 
+
+8.End.
 ## Program:
 ```
- 
-#include <stdio.h> 
-int main() { 
-    int sub1, sub2, sub3, total; 
-    float average; 
-    scanf("%d %d %d", &sub1,&sub2,&sub3); 
-    total = sub1 + sub2 + sub3; 
-    average = total / 3.0; 
-    printf("\nTotal : %d\n", total); 
-    printf("Average : %.2f\n", average); 
-    return 0; 
+/*
+Program to check whether the attendance is PRESENT using simple if statement.
+Developed by: santhosh kumar B
+RegisterNumber:212223060249  
+*/
+#include<stdio.h> 
+int main(){
+char p1; 
+scanf("%c", &p1);
+if(p1=='P')
+{
+printf("Present");
+}
+return 0;
 }
 ```
 
 ## Output:
-![image](https://github.com/user-attachments/assets/7cae4230-0e30-47e9-b08c-3d3374f398d8)
-
-
+<img width="593" height="186" alt="image" src="https://github.com/user-attachments/assets/f11a6e97-0d0a-4f59-8ff1-64fcd3a60f2c" />
 
 ## Result:
 Thus the program was executed and the output was verified successfully.
