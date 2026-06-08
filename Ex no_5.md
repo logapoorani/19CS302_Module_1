@@ -1,45 +1,33 @@
-# EX 5 C program to check whether the attendance is PRESENT using simple if statement.
+# EX 5C Write a C program to read a year and check whether the year is leap year or not using  if else
 ## DATE:
 ## AIM:
-To write a program to check whether the attendance is PRESENT using simple if statement.
+To write a program to read a year and check whether the year is leap year or not using  if else.
 
 ## Algorithm
 1.Start.
-
-2.Declare a variable value of type char. 
-
-3.Prompt the user to enter a value. 
-
-4.Read the value using scanf. 
-
-5.Check whether the attendance is PRESENT. 
-
-6.If true, print "Present". 
-
-7.If false, print " ". 
-
-8.End.
+2.Read the year value.
+3.Check if the year is divisible by 4 (year % 4 == 0).
+4.If true, display "Leap Year".
+5.Otherwise, display "Not a Leap Year".
+6.Stop.
 ## Program:
 ```
-/*
-Program to check whether the attendance is PRESENT using simple if statement.
-Developed by: santhosh kumar B
-RegisterNumber:212223060249  
-*/
-#include<stdio.h> 
-int main(){
-char p1; 
-scanf("%c", &p1);
-if(p1=='P')
+#include <stdio.h>
+int main()
 {
-printf("Present");
-}
-return 0;
+    int year;
+    scanf("%d", &year);
+     if(year%4 == 0)
+        printf("Leap Year");
+ else
+  printf("Not a Leap Year");
+          return 0;
 }
 ```
 
 ## Output:
-<img width="593" height="186" alt="image" src="https://github.com/user-attachments/assets/f11a6e97-0d0a-4f59-8ff1-64fcd3a60f2c" />
+<img width="825" height="348" alt="Screenshot 2026-06-08 134511" src="https://github.com/user-attachments/assets/b62a669b-88dd-411b-a8da-6ac75fb77263" />
+
 
 ## Result:
 Thus the program was executed and the output was verified successfully.
